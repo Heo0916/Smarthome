@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SmartHome">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="ojdbc14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc14/ojdbc14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-simple-1.1.1 (1).jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/json-simple-1.1.1 (1)/json-simple-1.1.1 (1)">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-json.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/java-json/java-json">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mariadb-java-client-1.2.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mariadb-java-client-1.2.0/mariadb-java-client-1.2.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="SmartHome"/>
+        <property name="java-output-path" value="/SmartHome/build/classes"/>
+    </wb-module>
+</project-modules>
